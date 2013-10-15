@@ -216,6 +216,9 @@ function runUnitTests(cmd, callback) {
     if (cmd.coverage) {
         commandArgs.push('--coverageExclude=' + filestoexclude);
     }
+    if (cmd.seleniumHost) {
+        commandArgs.push('--seleniumHost=' + cmd.seleniumHost);
+    }
 
     p = runCommand(
         cmd.unitPath,
