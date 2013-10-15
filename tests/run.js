@@ -198,9 +198,6 @@ function runUnitTests(cmd, callback) {
     if (phantomjsport) {
         commandArgs.push('--phantomHost=http://localhost:' + phantomjsport + '/wd/hub');
     }
-    if (cmd.logLevel) {
-        commandArgs.push('--logLevel=' + cmd.logLevel);
-    }
     if (cmd.browser) {
         commandArgs.push('--browser=' + cmd.browser);
     }
