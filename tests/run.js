@@ -185,6 +185,7 @@ function runUnitTests(cmd, callback) {
             "--descriptor=" + cmd.unitPath + '/' + descriptor,
             "--exitCode=true",
             "--keepTestReport=true",
+            "--logLevel=debug",
             "--report=true",
             "--reportFolder=" + arrowReportDir
         ],
