@@ -18,8 +18,7 @@
                 "params" : {
                     "scenario": [
                         {
-                            "test" : "test_quickstartguide_homepage.js",
-                            "page" : "$$config.baseUrl$$"
+                            "page" : "$$config.baseUrl$$/"
                         },
                         {
                             "test" : "test_quickstartguide_homepage.js"
